@@ -1,0 +1,84 @@
+
+[Nehemoth]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Max Health" = 120.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Ranged Damage" = 3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Laser Damage" = 3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Nehemoth Melee Damage" = 8.0
+
+[Froglin]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Froglin Max Health" = 25.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Froglin Projetile Damage" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Froglin Melee Damage" = 5.0
+
+[Bulldrogioth]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Bulldrogioth Max Health" = 150.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Bulldrogioth Melee Damage" = 15.0
+
+[Cleric]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cleric Max Health" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cleric Projectile Damage" = 5.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Cleric Melee Damage" = 1.0
+
+[SpawnRate]
+	#Changed Cleric SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Cleric SpawnRate" = 5
+	#Changed Soulfire Nehemoth SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"SoulFire Nehemoth SpawnRate" = 2
+	#Changed Nehemoth SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Nehemoth SpawnRate" = 5
+	#Changed Nehemoth SpawnRate in Fortress. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Nehemoth SpawnRate in Fortress" = 5
+	#Changed Bulldrogioth SpawnRate in Ocean Ruin. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Bulldrogioth SpawnRate in Ocean Ruin" = 5
+	#Changed Bulldrogioth SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Bulldrogioth SpawnRate" = 2
+	#Changed Froglin SpawnRate. [0 ~ 100]
+	#Range: 0 ~ 100
+	"Froglin SpawnRate" = 2
+
+[Equipment]
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Thirst For Blood Damage" = 8.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Thirst For Blood Laser Damage" = 9.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Devil Splitter Damage" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Diabolium Helmet Armor Value" = 3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Diabolium Chestplate Armor Value" = 8.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Diabolium Leggings Armor Value" = 6.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Diabolium Armor Durability" = 24.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Crust Helmet Armor Value" = 4.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Crust Chestplate Armor Value" = 9.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Crust Leggings Armor Value" = 7.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Crust Armor Durability" = 30.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Plague Doctor Mask Armor Value" = 3.0
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Sets Plague Doctor Mask Durability" = 8.0
+

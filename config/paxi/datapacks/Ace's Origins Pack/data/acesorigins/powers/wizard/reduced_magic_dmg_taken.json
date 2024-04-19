@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+
+    "magic_dmg": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "magic"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": -3
+        }
+    },
+
+    "player_magic_dmg": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "magic.player"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": -3
+        }
+    },
+
+    "name": "Arcane Guard",
+    "description": "You take less magic damage than normal."
+}

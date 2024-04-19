@@ -1,0 +1,15 @@
+{
+    "hidden": false,
+    "type": "origins:starting_equipment",
+    "stacks":[
+        {
+            "item": "minecraft:iron_shovel"
+        },
+        {
+            "item": "minecraft:potato",
+            "amount": "2"
+        }
+    ],
+    "name": "Scavenger",
+    "description": "You managed to pick up a few items in your undead travels"
+}

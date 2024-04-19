@@ -1,0 +1,95 @@
+{
+    "type": "origins:multiple",
+
+    "villager": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"They fear you. You're a monster.\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:villager"
+            }
+        }
+    },
+
+    "wandering_villager": {
+        "type": "origins:prevent_entity_use",
+        "bientity_action": {
+            "type": "origins:actor_action",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "title @s actionbar {\"text\": \"They fear you. You're a monster.\", \"color\": \"red\"}"
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wandering_trader"
+            }
+        }
+    },
+
+    "iron_golem_auto_mad": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngryAt set from entity @p[tag=Ultima] UUID",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=..10] run data modify entity @s AngerTime set value 60",
+                    "permission_level": 2
+                }
+            ]
+        }
+    },
+
+    "iron_golem_remove_anger": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngryAt set from entity @s UUID",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=minecraft:iron_golem,distance=10..20] run data modify entity @s AngerTime set value 0",
+                    "permission_level": 2
+                }
+            ]
+        }
+    },
+
+    "anger_tag": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "tag @s add Ultima"
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "tag @s remove Ultima"
+        },
+        "execute_chosen_when_orb": true
+    },
+
+    "name": "Fear of The Ultima",
+    "description": "All humans fear you, as you are the Ultima, and all Iron Golems will be aggressive towards you."
+}

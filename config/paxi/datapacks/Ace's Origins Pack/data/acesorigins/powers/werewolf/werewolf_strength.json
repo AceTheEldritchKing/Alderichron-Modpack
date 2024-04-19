@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 2
+    },
+    "name": "Werewolf Strength",
+    "description": "Being a werewolf makes you stronger than humans and Mei'Fwas."
+}

@@ -1,0 +1,56 @@
+{
+    "type": "origins:multiple",
+
+    "strength_in_fire": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -1,
+        "max_stacks": 5,
+        "duration_per_stack": 80,
+        "tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:strength",
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:resistance",
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            }
+        ],
+        "condition": {
+            "type": "origins:on_fire"
+        }
+    },
+
+    "strength_in_hell": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -1,
+        "max_stacks": 5,
+        "duration_per_stack": 80,
+        "tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:strength",
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:resistance",
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            }
+        ],
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:the_nether"
+        }
+    },
+    "name": "Hellish Strength",
+    "description": "Your power enhances when you are on fire, or in your home realm of Hell."
+}

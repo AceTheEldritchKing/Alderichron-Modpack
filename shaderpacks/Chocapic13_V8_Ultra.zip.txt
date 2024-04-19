@@ -1,0 +1,9 @@
+#Fri Feb 23 20:14:21 EST 2024
+FAR_BLUR_ONLY=true
+aperture=5.5
+moon_illuminance=20.0
+sun_illuminance=20000.0
+HQ_DOF=true
+ATMOSPHERIC_DENSITY=7.5
+MIN_LIGHT_AMOUNT=0.0
+SATURATION=0.12

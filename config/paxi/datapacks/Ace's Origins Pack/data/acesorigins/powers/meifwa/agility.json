@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.05
+    },
+    "condition": {
+        "type": "origins:sprinting"
+    },
+    "tick_rate": 20,
+    "name": "Enhanced Agility",
+    "description": "You are far more agile than normal humans and even werewolves."
+}

@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -6
+    },
+    "name": "Frail",
+    "description": "Your body is weaker compared to the other races."
+}

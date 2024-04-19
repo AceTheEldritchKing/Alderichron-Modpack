@@ -1,0 +1,15 @@
+#Wed Nov 08 21:37:32 EST 2023
+pomEnabled=true
+motionblurToggle=false
+DoFToggle=true
+normalmapFormat=1
+directionalLMEnabled=true
+lensFlareHaloToggle=true
+indirectResReduction=1
+pomDepth=0.65
+fogMistAdvanced=true
+fogSmoothingPassEnabled=true
+shadowMapResolution=4096
+cloudShadowsEnabled=true
+lensFlareToggle=true
+CLOUD_RENDER_LOD=1.0

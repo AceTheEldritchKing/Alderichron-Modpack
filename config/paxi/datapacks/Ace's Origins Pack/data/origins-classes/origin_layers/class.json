@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "origins": [
+        "acesorigins:revamp_cleric",
+        "acesorigins:witch_class",
+        "acesorigins:wizard_class",
+        "acesorigins:paladin",
+        "acesorigins:scholar_class",
+        "acesorigins:tank_class"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "particle dust 0 0 0 0.5 ~ ~ ~ 0 0 0 0.5 5 normal",
+      "permission_level": 4
+    },
+    "interval": 20,
+    "hidden": true,
+    "name": "Ultima Particles",
+    "description": "Poof!"
+}

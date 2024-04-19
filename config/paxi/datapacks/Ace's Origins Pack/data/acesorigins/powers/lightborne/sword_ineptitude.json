@@ -1,0 +1,21 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": -2
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "acesorigins:swords"
+            }
+        }
+    },
+    "name": "Sword Ineptitude",
+    "description": "As you are not familiar with bladed weapons, you deal less damage using them."
+}

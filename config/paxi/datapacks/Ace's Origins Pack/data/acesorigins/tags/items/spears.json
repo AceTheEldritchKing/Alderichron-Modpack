@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:trident",
+        {
+            "required": false,
+            "id": "tetra:modular_single"
+        }
+    ]
+}

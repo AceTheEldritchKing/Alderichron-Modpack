@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:projectile"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    },
+    "name": "Arrow To The Heart",
+    "description": "As a Dragonlinked, you are more susceptible to projectile damage, and thus take increased damage from them."
+}

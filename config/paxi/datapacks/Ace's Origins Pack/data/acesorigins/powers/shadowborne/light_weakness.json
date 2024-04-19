@@ -1,0 +1,20 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -5,
+    "max_stacks": 5,
+    "duration_per_stack": 40,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "is_ambient": false,
+        "show_icon": true,
+        "show_particles": false
+    },
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": ">",
+        "compare_to": 0.7
+    },
+    "name": "Light Aversion",
+    "description": "As a creature of shadow, the light makes you weaker."
+}

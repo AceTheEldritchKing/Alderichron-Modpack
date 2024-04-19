@@ -1,0 +1,47 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:raycast",
+        "distance": 15,
+        "block": true,
+        "entity": true,
+        "shape_type": "visual",
+        "fluid_handling": "none",
+        "command_along_ray": "particle flame ~ ~ ~ 0 0 0 0.2 15 normal",
+        "command_at_hit": "playsound minecraft:entity.player.hurt_on_fire ambient @a ~ ~ ~ 1",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:set_on_fire",
+                        "duration": 10
+                    },
+                    {
+                        "type": "origins:execute_command",
+                        "command": "particle flash ~ ~ ~ 0 0 0 0 2 normal"
+                    }
+                ]
+            }
+        },
+        "before_action": {
+            "type": "origins:play_sound",
+            "sound": "minecraft:entity.blaze.burn",
+            "volume": 1,
+            "pitch": 1
+        }
+    },
+    "cooldown": 80,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "acesorigins:textures/gui/acesorigins/aces_resource_bar_01.png",
+        "bar_index": 2
+    },
+    "name": "Smiting Ray",
+    "description": "You are able to smite your enemies with holy fire."
+}

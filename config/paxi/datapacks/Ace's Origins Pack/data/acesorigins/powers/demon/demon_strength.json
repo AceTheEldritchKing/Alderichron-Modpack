@@ -1,0 +1,17 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 1
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 2
+        }
+    ],
+    "name": "A Demon's Strength",
+    "description": "Your demonic body is stronger than most mortals."
+}

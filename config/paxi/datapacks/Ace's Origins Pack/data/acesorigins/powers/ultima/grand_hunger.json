@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.7
+    },
+    "name": "Grand Hunger",
+    "description": "Hunger fuels the Ultima."
+}

@@ -1,0 +1,31 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "acesorigins:chocolate_items"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "origins:ignore_diet"
+                },
+                "inverted": true
+            }
+        ]
+    },
+    "name": "Chocolate Allergy",
+    "description": "You are allergic to all things chocolate, and thus cannot eat anything made of it."
+}

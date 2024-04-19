@@ -1,0 +1,25 @@
+#Wed Jan 17 19:49:14 EST 2024
+motionblurToggle=false
+DoFToggle=true
+lensFlareHaloToggle=true
+resourcepackReflectionsEnabled=true
+netherHazeDensity=0.8
+fogMistAdvanced=true
+fogSmoothingPassEnabled=true
+cloudShadowsEnabled=true
+CLOUD_RENDER_LOD=2.0
+airMistMult=1.8
+skylightRedMult=0.80
+skylightIllum=0.4
+skylightGreenMult=0.80
+indirectResReduction=1
+colorlumR=0.80
+sunlightRedMult=0.80
+moonlightIllum=0.5
+sunlightGreenMult=0.80
+shadowMapResolution=4096
+moonlightGreenMult=0.80
+lensFlareToggle=true
+moonlightRedMult=0.80
+colorlumG=0.80
+sunlightIllum=0.75

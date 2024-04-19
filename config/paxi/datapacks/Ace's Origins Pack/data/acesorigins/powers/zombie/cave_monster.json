@@ -1,0 +1,7 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:mineshaft",
+    "name": "Cave Monster",
+    "description": "You spawn inside of a mineshaft"
+}

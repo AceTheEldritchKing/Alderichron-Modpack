@@ -1,0 +1,8 @@
+{
+    "loading_priority": 10,
+    "powers": [],
+    "icon": "minecraft:experience_bottle",
+    "order": 7,
+    "impact": 0,
+    "unchoosable": true
+}

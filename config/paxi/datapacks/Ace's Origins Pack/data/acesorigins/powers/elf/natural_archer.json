@@ -1,0 +1,41 @@
+{
+    "type": "origins:multiple",
+
+    "normal_arrow": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:arrow"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+
+    "potion_arrow": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:tipped_arrow"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+
+    "spectral_arrow": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:spectral_arrow"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+    "name": "Natural Born Archer",
+    "description": "As an elf, your archery skills are unmatched compared to the other races."
+}

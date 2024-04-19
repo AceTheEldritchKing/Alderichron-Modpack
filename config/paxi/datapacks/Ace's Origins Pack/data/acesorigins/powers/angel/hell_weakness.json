@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -1,
+    "max_stacks": 5,
+    "duration_per_stack": 80,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "is_ambient": true,
+        "show_particles": true,
+        "show_icon": true
+    },
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "name": "Demonic Repulsion",
+    "description": "Being in the presence of the demonic realm of Hell sunders you and fills your body with complete repulse."
+}

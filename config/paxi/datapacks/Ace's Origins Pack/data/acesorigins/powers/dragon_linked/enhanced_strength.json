@@ -1,0 +1,17 @@
+{
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 2
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4
+        }
+    ],
+    "name": "Draconic Lineage",
+    "description": "As you linked with dragons, their energy powers you, enhancing your abilities."
+}

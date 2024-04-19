@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "acesorigins:werewolf/wolf_friend",
+        "acesorigins:werewolf/wolf_team",
+        "acesorigins:werewolf/werewolf_strength",
+        "acesorigins:werewolf/werewolf_endurance",
+        "acesorigins:werewolf/chocolate_allergy",
+        "acesorigins:werewolf/great_hunger",
+        "acesorigins:werewolf/silver_weakness"
+    ],
+    "icon": "minecraft:bone",
+    "order": 4,
+    "impact": 2,
+    "name": "Werewolf",
+    "description": "Are you a man, or a wolf? Perhaps both."
+}

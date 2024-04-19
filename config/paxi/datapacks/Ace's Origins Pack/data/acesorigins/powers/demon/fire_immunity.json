@@ -1,0 +1,26 @@
+{
+    "type": "origins:multiple",
+
+    "fire_immunity": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:fire"
+        }
+    },
+
+    "lava_vision": {
+        "type": "origins:lava_vision",
+        "s": 1,
+        "v": 10
+    },
+
+    "lava_speed": {
+        "type": "origins:modify_lava_speed",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.2
+        }
+    },
+    "name": "Fire Immunity",
+    "description": "Due to your demon-blood, you are completely immune to fire."
+}

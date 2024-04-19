@@ -1,0 +1,9 @@
+
+["Tweak Settings"]
+	#setting this to true will allows baby leviathan to grow into an adult
+	canBabyLeviathanGrow = true
+	#item used for mount tamed adult leviathan
+	leviathanMountItem = "minecraft:saddle"
+	#item used for grow baby leviathan to adult
+	leviathanGrowItem = "minecraft:dragon_egg"
+

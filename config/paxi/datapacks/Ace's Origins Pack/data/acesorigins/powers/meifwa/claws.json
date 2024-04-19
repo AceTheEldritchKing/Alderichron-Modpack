@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1
+    },
+    "name": "Cat Claws",
+    "description": "As a Mei'fwa, you have retractable claws that deal more damage."
+}

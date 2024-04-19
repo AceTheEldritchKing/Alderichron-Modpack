@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "acesorigins:tank/increased_health",
+        "acesorigins:tank/more_armor"
+    ],
+    "icon": "minecraft:iron_chestplate",
+    "order": 8,
+    "impact": 0,
+    "name": "Tank",
+    "description": "Warriors trained the methods of absorbing damage, often taking hits for allies."
+}

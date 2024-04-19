@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": 2
+    },
+    "name": "Thick Armor",
+    "description": "As a Tank, you have a little extra armor to spare."
+}

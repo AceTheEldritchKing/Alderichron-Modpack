@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "acesorigins:paladin/holy_smite",
+        "acesorigins:paladin/undead_dmg_reduction"
+    ],
+    "icon": "minecraft:golden_sword",
+    "order": 9,
+    "impact": 0,
+    "name": "Paladin",
+    "description": "Divine warriors who serve the greater good, smiting undead and unholy creatures."
+}

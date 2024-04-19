@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:ender_dragon",
+        {
+            "required": false,
+            "id": "iceandfire:ice_dragon"
+        },
+        {
+            "required": false,
+            "id": "iceandfire:fire_dragon"
+        },
+        {
+            "required": false,
+            "id": "iceandfire:lightning_dragon"
+        }
+    ]
+}

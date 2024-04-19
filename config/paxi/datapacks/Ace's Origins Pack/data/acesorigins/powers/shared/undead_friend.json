@@ -1,0 +1,41 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "team join Zombie @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Zombie @e[type=minecraft:zombie]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Zombie @e[type=minecraft:zombified_piglin]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Zombie @e[type=minecraft:husk]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Zombie @e[type=minecraft:skeleton]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Zombie @e[type=minecraft:stray]",
+                "permission_level": 4
+            }
+        ]
+    },
+    "name": "Friend of the Undead",
+    "description": "Zombies will not attack their own, or rather, you"
+}

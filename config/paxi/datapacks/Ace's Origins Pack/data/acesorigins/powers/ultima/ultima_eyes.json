@@ -1,0 +1,94 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.wolf.growl ambient @a ~ ~ ~ 1"
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 60,
+                "block": true,
+                "entity": true,
+                "shape_type": "visual",
+                "fluid_handling": "none",
+                "command_along_ray": "particle dust 0.9 0.02 0.02 0.7 ~ ~ ~ 0 0 0 0 20 normal",
+                "command_at_hit": "particle dust_color_transition 0.78 0.18 0.18 2 1 0 0 ~ ~ ~ 0.4 0.4 0.4 0 30 normal",
+                "hit_action": {
+                    "type": "origins:execute_command",
+                    "command": "particle dust_color_transition 1 0.04 0.04 2 0.49 0.01 0.01 ~ ~ ~ 0.2 0.2 0.2 0 25 normal"
+                },
+                "bientity_condition": {
+                    "inverted": false,
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:entity_type",
+                                "entity_type": "minecraft:villager"
+                            },
+                            {
+                                "type": "origins:entity_type",
+                                "entity_type": "minecraft:wandering_trader"
+                            },
+                            {
+                                "type": "origins:entity_type",
+                                "entity_type": "minecraft:pillager"
+                            },
+                            {
+                                "type": "origins:entity_type",
+                                "entity_type": "minecraft:vindicator"
+                            },
+                            {
+                                "type": "origins:entity_type",
+                                "entity_type": "minecraft:evoker"
+                            },
+                            {
+                                "condition": "origins:origin",
+                                "origin": "origins:human"
+                            }
+                        ]
+                    }
+                },
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "playsound minecraft:entity.wolf.howl ambient @a ~ ~ ~ 0.8",
+                                "permission_level": 4
+                            },
+                            {
+                                "type": "origins:damage",
+                                "amount": 300,
+                                "source": {
+                                    "name": "magic.player",
+                                    "bypasses_armor": true,
+                                    "unblockable": true,
+                                    "magic": true
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "acesorigins:textures/gui/acesorigins/aces_resource_bar_01.png",
+        "bar_index": 0
+    },
+    "name": "Curse of The Ultima",
+    "description": "Through the curse of the Ultima, anyone gazing into your untamed eyes will become a werewolf, or die."
+}

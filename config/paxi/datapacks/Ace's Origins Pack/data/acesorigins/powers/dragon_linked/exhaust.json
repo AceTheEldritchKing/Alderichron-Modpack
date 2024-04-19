@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    },
+    "name": "Traveller's Exhaustion",
+    "description": "Even though you're used to hunting down dragons, you experience more fatigue than the normal human or elf."
+}

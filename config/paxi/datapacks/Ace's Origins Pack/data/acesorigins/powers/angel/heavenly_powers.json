@@ -1,0 +1,64 @@
+{
+    "type": "origins:multiple",
+
+    "strength_in_sunlight": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -1,
+        "max_stacks": 5,
+        "duration_per_stack": 80,
+        "tick_rate": 20,
+        "effects": [
+            {
+                "effect": "minecraft:strength",
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:resistance",
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": true
+            }
+        ],
+        "condition": {
+            "type": "origins:exposed_to_sun"
+        }
+    },
+
+    "enhanced_strength_in_light": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:brightness",
+            "comparison": ">",
+            "compare_to": 0.8
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+
+    "strength_against_demons": {
+        "type": "origins:modify_damage_dealt",
+        "target_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:entity_group",
+                    "group": "undead"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "acesorigins:demonic_entities"
+                }
+            ]
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 4
+        }
+    },
+    "name": "Divine Power",
+    "description": "You are at your most powerful when you bask in the light, and especially under the sun. You also deal more damage to undead amd demonic entities."
+}

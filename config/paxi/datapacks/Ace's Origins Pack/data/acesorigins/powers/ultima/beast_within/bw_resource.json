@@ -1,0 +1,41 @@
+{
+    "type": "origins:resource",
+    "min": 0,
+    "max": 25,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "acesorigins:textures/gui/acesorigins/aces_resource_bar_01.png",
+      "bar_index": 5
+    },
+    "min_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:revoke_power",
+                "power": "acesorigins:ultima/beast_within/size_color_and_buff",
+                "source": "acesorigins:ultima"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "acesorigins:ultima/beast_within/particle_effects",
+                "source": "acesorigins:ultima"
+            }
+        ]
+    },
+    "max_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:grant_power",
+                "power": "acesorigins:ultima/beast_within/size_color_and_buff",
+                "source": "acesorigins:ultima"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "acesorigins:ultima/beast_within/particle_effects",
+                "source": "acesorigins:ultima"
+            }
+        ]
+    },
+    "hidden": true
+}

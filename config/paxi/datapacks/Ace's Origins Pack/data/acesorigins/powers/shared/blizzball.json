@@ -1,0 +1,20 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 60,
+    "count": 1,
+    "speed": 1.5,
+    "divergence": 1,
+    "tag": "{pickup:0b,CustomPotionEffects:[{Id:2,Duration:100,Amplifier:0b}]}",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "hud_render": {
+        "should_render": true,
+        "spriteLocation": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 6
+    },
+    "name": "Blizzball",
+    "description": "Shoots an arrow of slowness at your enemy which slows them down for five seconds."
+}

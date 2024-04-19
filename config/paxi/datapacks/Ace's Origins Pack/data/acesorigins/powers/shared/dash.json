@@ -1,0 +1,32 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+       "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_velocity",
+                "z": 2,
+                "space": "local"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:poof ~ ~ ~ 0 0 0 0.5 5 normal"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.arrow.shoot ambient @a ~ ~ ~"
+            }
+        ]
+    },
+    "cooldown": 80,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "acesorigins:textures/gui/acesorigins/aces_resource_bar_01.png",
+        "bar_index": 6
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "Dash",
+    "description": "You can dash in the direction you're looking in."
+}

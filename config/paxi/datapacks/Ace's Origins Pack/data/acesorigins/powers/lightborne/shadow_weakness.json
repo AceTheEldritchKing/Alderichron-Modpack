@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -5,
+    "max_stacks": 5,
+    "duration_per_stack": 20,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "is_ambient": false,
+        "show_icon": true,
+        "show_particles": false
+    },
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": "<",
+        "compare_to": 0.6
+    },
+    "name": "Dark Aversion",
+    "description": "As a being of light, the dark repulses you."
+}

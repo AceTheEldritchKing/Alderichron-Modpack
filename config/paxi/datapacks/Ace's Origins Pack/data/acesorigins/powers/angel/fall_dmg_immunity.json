@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "name": "Graceful Landing",
+    "description": "Due to the power of your wings and experience with flight, no matter how far you fall, you will never take damage from landing."
+}

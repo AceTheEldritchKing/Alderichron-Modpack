@@ -1,0 +1,27 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 5,
+    "duration_per_stack": 20,
+    "effects": [
+        {
+            "effect": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:resistance",
+            "is_ambient": true,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ],
+    "condition": {
+        "type": "origins:health",
+        "comparison": "<",
+        "compare_to": 8
+    },
+    "name": "Valor In A Dying Breath",
+    "description": "Breathing in your final breath grants you the courage to fight to the end, giving you enhanced strength and resistance."
+}

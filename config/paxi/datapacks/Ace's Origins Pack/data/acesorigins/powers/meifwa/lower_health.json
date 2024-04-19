@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -4
+    },
+    "name": "Weaker Frame",
+    "description": "You have a weaker body compared to humans and werewolves."
+}

@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -8,
+    "max_stacks": 20,
+    "duration_per_stack": 60,
+    "effect": {
+        "effect": "minecraft:night_vision",
+        "show_particles": false,
+        "show_icon": false,
+        "is_ambient": false
+    },
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": "<",
+        "compare_to": 0.5
+    },
+    "name": "Nocturnal",
+    "description": "After so many years in the darkness, your eyes have grown accustomed to night."
+}

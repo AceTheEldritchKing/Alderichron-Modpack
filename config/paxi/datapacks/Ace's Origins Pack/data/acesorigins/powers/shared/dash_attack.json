@@ -1,0 +1,64 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:raycast",
+                "distance": 6,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "bientity_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:damage",
+                            "amount": 3,
+                            "source": {
+                                "name": "generic.player"
+                            }
+                        },
+                        {
+                            "type": "add_velocity",
+                            "z": -0.5,
+                            "y": 0.5,
+                            "space": "local"
+                        }
+                    ]
+                },
+                "hit_action": {
+                    "type": "origins:add_velocity",
+                    "z": 2,
+                    "space": "local"
+                },
+                "miss_action": {
+                    "type": "origins:add_velocity",
+                    "z": 2,
+                    "space": "local"
+                },
+                "command_step": 1
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "particle minecraft:poof ~ ~ ~ 0 0 0 0.5 5 normal"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.arrow.shoot ambient @a ~ ~ ~"
+            }
+        ]
+    },
+    "cooldown": 80,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "acesorigins:textures/gui/acesorigins/aces_resource_bar_01.png",
+        "bar_index": 6
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "name": "Dash Attack",
+    "description": "You can dash in the direction you're looking in, and able to damage any foe in your way."
+}

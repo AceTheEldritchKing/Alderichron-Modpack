@@ -1,0 +1,46 @@
+{
+    "type": "origins:multiple",
+
+    "weak_swords": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -1
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "acesorigins:swords"
+                }
+            }
+        }
+    },
+
+    "weak_blunts": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": -1
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "acesorigins:blunt"
+                }
+            }
+        }
+    },
+
+    "name": "Melee Novice",
+    "description": "As you are unfamiliar with melee weapons, you aren't able to use them effectively"
+}

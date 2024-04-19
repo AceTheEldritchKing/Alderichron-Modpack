@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "origins": [
+        "acesorigins:zombie",
+        "acesorigins:meifwa",
+        "acesorigins:werewolf",
+        "acesorigins:ultima",
+        "acesorigins:shadowborne",
+        "acesorigins:lightborne",
+        "acesorigins:elf",
+        "acesorigins:demon",
+        "acesorigins:angel",
+        "acesorigins:dragon_linked"
+    ]
+}

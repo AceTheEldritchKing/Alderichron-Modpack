@@ -1,0 +1,36 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "team join Fiend @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Fiend @e[type=minecraft:blaze]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Fiend @e[type=minecraft:wither_skeleton]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Fiend @e[type=minecraft:ghast]",
+                "permission_level": 4
+            },
+			{
+                "type": "origins:execute_command",
+                "command": "team join Fiend @e[type=undead_unleashed:flamebreather]",
+                "permission_level": 4
+            }
+        ]
+    },
+    "name": "Fiendish",
+    "description": "Most Hell inhabitants are neutral towards you."
+}

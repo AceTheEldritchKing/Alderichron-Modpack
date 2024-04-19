@@ -1,0 +1,50 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:cookie",
+        {
+            "required": false,
+            "id": "create:bar_of_chocolate"
+        },
+        {
+            "required": false,
+            "id": "create:chocolate_glazed_berries"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:chocolate_bar"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:chocolate_spider_eye"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:chocolate_ice_cream"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:chocolate_cake"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:chocolate_milkshake"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:chocolate_strawberries"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:vanilla_chocolate_fingers"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:mint_chocolate"
+        },
+        {
+            "required": false,
+            "id": "neapolitan:neapolitan_ice_cream"
+        }
+    ]
+}

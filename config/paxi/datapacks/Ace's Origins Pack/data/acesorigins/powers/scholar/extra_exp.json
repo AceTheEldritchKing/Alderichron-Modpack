@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 1.5
+    },
+    "name": "Academic",
+    "description": "Your lust for knowledge allows you to gain more experience from any activities you perform."
+}

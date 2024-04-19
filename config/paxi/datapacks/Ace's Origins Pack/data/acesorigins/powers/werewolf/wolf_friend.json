@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "team join Wolf @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "team join Wolf @e[type=minecraft:wolf]",
+                "permission_level": 4
+            }
+        ]
+    },
+    "name": "Wolf Pack",
+    "description": "Wolves stick together in packs, even werewolves."
+}

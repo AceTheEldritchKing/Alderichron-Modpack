@@ -1,0 +1,14 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:set_on_fire",
+        "duration": 5
+    },
+    "target_condition": {
+        "type": "origins:entity_group",
+        "group": "undead"
+    },
+    "cooldown": 1,
+    "name": "Smiting Blow",
+    "description": "Your divine power ignites the undead when hit!"
+}

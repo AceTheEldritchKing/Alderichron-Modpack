@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "origins-classes:potion_bonus",
+        "acesorigins:witch/poison_immunity"
+    ],
+    "icon": "minecraft:potion",
+    "order": 7,
+    "impact": 0,
+    "name": "Witch",
+    "description": "Crafty magic users with an affinity for potions."
+}

@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    },
+    "name": "Knowledgeable",
+    "description": "As an elf, you have an increased understanding of the world, and are thus able to gain more insight from it."
+}

@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "particle dust_color_transition 0.04 0.01 0.13 1 0.23 0.06 0.34 ~ ~ ~ 0.4 0.4 0.4 0.5 25 normal",
+        "permission_level": 4
+    },
+    "interval": 20,
+    "hidden": true,
+    "name": "Shadow Particles",
+    "description": "Poof!"
+}

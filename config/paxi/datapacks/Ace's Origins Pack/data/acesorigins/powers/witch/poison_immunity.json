@@ -1,0 +1,6 @@
+{
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:poison",
+    "name": "Poison Immunity",
+    "description": "Being accustomed to alchemy, you are immune to poison."
+}

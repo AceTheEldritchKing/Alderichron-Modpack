@@ -1,0 +1,17 @@
+
+#Overall Tweaks
+[overall_tweaks]
+	#Enable mod functionality.
+	modEnabled = true
+	#Speed to run at when target is far
+	#Range: 0.0 ~ 3.0
+	farSpeed = 1.0
+	#Speed to run at when target is near
+	#Range: 0.0 ~ 3.0
+	nearSpeed = 1.2
+	#List of player UUIDs which are considered "The Feared ones". Mobs will try to evade these players.
+	UUIDs = []
+	#Mob Avoid Distance
+	#Range: 0.0 ~ 32.0
+	avoidDistance = 8.0
+

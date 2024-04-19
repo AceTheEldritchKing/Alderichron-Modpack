@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:blaze",
+        "minecraft:wither_skeleton",
+        "minecraft:ghast",
+		{
+            "required": false,
+            "id": "undead_unleashed:flamebreather"
+        }
+    ]
+}

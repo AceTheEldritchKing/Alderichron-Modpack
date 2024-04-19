@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": false,
+    "name": "Angel Flight",
+    "description": "All angels have the ability to soar through the skies."
+}

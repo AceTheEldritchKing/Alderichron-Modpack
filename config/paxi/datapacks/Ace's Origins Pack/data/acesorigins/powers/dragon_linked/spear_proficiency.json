@@ -1,0 +1,36 @@
+{
+    "type": "origins:multiple",
+
+    "spear_damage": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:equiped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "acesorigins:spears"
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+
+    "thrown_damage": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:trident"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": 2
+        }
+    },
+
+    "name": "Spear Proficiency",
+    "description": "You have been trained in fighting with spears, and thus deal more damage using them."
+}

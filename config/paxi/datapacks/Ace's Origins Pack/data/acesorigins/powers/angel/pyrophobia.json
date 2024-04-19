@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    },
+    "name": "Pyrophobia",
+    "description": "Fire is one of your fatal flaws, as they can burn up your wings with ease."
+}

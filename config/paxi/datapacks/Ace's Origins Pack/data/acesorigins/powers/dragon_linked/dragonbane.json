@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:in_tag",
+        "tag": "acesorigins:dragon_entities"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 5
+    },
+    "name": "Dragon's Bane",
+    "description": "Despite your draconic lineage, you are also their undoing; thus you deal more damage to dragons."
+}

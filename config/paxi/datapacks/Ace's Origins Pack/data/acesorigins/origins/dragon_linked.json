@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "acesorigins:dragon_linked/enhanced_strength",
+        "acesorigins:dragon_linked/spear_proficiency",
+        "acesorigins:dragon_linked/valor",
+        "acesorigins:dragon_linked/dragonbane",
+        "acesorigins:dragon_linked/arrow_weakness",
+        "acesorigins:dragon_linked/exhaust",
+        "acesorigins:dragon_linked/burdened_alt",
+        "acesorigins:shared/dash_attack"
+    ],
+    "icon": "minecraft:dragon_head",
+    "order": 3,
+    "impact": 3,
+    "name": "Dragonlinked",
+    "description": "Those linked with the soul of dragon, often possessing their strength and power. Dragonlinked hunt down their draconic breathen to protect society."
+}

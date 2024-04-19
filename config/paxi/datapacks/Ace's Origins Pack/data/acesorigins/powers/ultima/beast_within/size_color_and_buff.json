@@ -1,0 +1,144 @@
+{
+    "type": "origins:multiple",
+
+    "size_change": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 2.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 2.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set true @s"
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 20,
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effects": [
+                            {
+                                "effect": "minecraft:strength",
+                                "duration": 500,
+                                "is_ambient": true,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            {
+                                "effect": "minecraft:resistance",
+                                "duration": 500,
+                                "is_ambient": true,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 2.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 2.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale persist set true @s"
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 20,
+                    "action": {
+                        "type": "origins:apply_effect",
+                        "effects": [
+                            {
+                                "effect": "minecraft:strength",
+                                "duration": 500,
+                                "is_ambient": true,
+                                "show_particles": true,
+                                "show_icon": true
+                            },
+                            {
+                                "effect": "minecraft:resistance",
+                                "duration": 500,
+                                "is_ambient": true,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale reset @s"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:strength"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:resistance"
+                }
+            ]
+        }
+    },
+
+    "color_change": {
+        "type": "origins:model_color",
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 1
+    },
+
+    "increased_damage": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 5
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "acesorigins:ultima/beast_within/bw_resource",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+    "increased_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "operation": "addition",
+            "value": 0.06
+        },
+        "tick_rate": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "acesorigins:ultima/beast_within/bw_resource",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1.5
+    },
+    "name": "Great Hunger",
+    "description": "With great strength, comes greater hunger."
+}

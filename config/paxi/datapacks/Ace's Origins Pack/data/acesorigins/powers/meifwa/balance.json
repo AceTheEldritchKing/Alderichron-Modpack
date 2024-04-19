@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.5
+    },
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    },
+    "name": "Balanced",
+    "description": "As being part feline, you take less damage when you fall."
+}

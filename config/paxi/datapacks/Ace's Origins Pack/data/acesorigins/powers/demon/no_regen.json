@@ -1,0 +1,17 @@
+{
+    "type": "origins:multiple",
+
+    "no_nat_regen": {
+        "type": "origins:disable_regen"
+    },
+
+    "lower_healing": {
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    },
+    "name": "Unholy Prevention",
+    "description": "As a demon, your ties to the aether have been cut. Thus, you suffer no natural regen and any healing is half as effective on you."
+}

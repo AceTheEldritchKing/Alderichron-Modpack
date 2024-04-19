@@ -1,0 +1,23 @@
+
+#This is the config file of Saturn
+#To get the best performance, i'd recommended to set all the options to true, 
+#until you got an issue or compatibility with other mod,\nIf you do, please report the issue in the issue tracker from the link linked below:
+#https://github.com/AbdElAziz333/Saturn/issues
+["Memory Leak Fixes"]
+	#Set this to true to enable biome temperature cache leak fix.
+	biomeTemperatureCacheLeakFix = true
+	#Set this to true to enable Ai clear memories leak fix.
+	clearMemoriesLeakFix = true
+	#Set this to true to enable read resource leak fix.
+	readResourceLeakFix = true
+	#Set this to true to enable ticking tracker leak fix.
+	tickingTrackerLeakFix = true
+
+["Reduce Garbage Collection (GC) Heap Optimizations"]
+	#Avoid unnecessary object creation
+	avoidUnnecessaryObjectCreation = true
+
+[Miscellaneous]
+	#Disable threading detector lock duplication
+	disableThreadingDetectorLock = true
+
