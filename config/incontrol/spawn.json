@@ -8,9 +8,9 @@
   "when": "onjoin",
   "mod": "alexsmobs",
   "mincount": {
-  "perplayer": true
+  "perplayer": true,
   "amount": 50,
-  "mod": "alexsmobs",
+  "mod": "alexsmobs"
     },
   "result": "deny"
   }
