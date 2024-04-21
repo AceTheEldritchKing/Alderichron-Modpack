@@ -1,1 +1,17 @@
-[]
+[
+  {
+  "when": "onjoin",
+  "mob": "alexsmobs:fly",
+  "result": "deny"
+  },
+  {
+  "when": "onjoin",
+  "mod": "alexsmobs",
+  "mincount": {
+  "perplayer": true,
+  "amount": 50,
+  "mod": "alexsmobs"
+    },
+  "result": "deny"
+  }
+]
