@@ -1,0 +1,25 @@
+JEIEvents.hideItems(event => {
+  event.hide([
+  'fromtheshadows:thirst_for_blood',
+  'create:potato_cannon',
+  'create:steam_engine',
+  'create:steam_whistle',
+  'create:controller_rail',
+  'create:cart_assembler',
+  'create:mechanical_roller',
+  'create:mechanical_drill',
+  'create:flywheel',
+  'create:track',
+  'create:railway_casing',
+  'create:schedule',
+  'create:track_station',
+  'create:track_signal',
+  'create:track_observer',
+  'create:controls',
+  'create:display_link',
+  'create:display_board',
+  'create:nixie_tube',
+  'alexsmobs:blood_sprayer',
+  'alexsmobs:hemolymph_blaster'
+  ])
+})
