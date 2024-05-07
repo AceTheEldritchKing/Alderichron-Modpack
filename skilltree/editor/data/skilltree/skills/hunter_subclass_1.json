@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:hunter_subclass_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "3fb4cd89-11b8-419e-95e6-7764de3b98f9",
+      "name": "SkillBonus",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:jump_height",
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_subclass_1_offensive_1",
+    "skilltree:hunter_subclass_1_crafting_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": 200.37805,
+  "positionY": 283.09222,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

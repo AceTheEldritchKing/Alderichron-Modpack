@@ -1,0 +1,29 @@
+{
+  "id": "skilltree:cook_subclass_2_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.5,
+      "experience_source": "fishing"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 5.0,
+      "loot_type": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_subclass_2_life_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -144.95468,
+  "positionY": -448.51044,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

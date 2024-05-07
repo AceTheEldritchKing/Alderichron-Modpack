@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:miner_subclass_2_mastery",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "curios:ring",
+      "id": "b70af82e-b489-45a0-b221-1fe30e6d5e3e",
+      "name": "SkillBonus",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:miner_subclass_2_life_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "titleColor": "",
+  "positionX": -315.95526,
+  "positionY": 349.7826,
+  "buttonSize": 24,
+  "isStartingPoint": false
+}

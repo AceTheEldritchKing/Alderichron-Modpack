@@ -1,0 +1,11 @@
+
+[Locks]
+	#Allows locked blocks to be broken by players with a hardness modifier.
+	"Allow locks to be broken" = true
+	#Multiplies the base hardness of a block when locked.
+	"Lock hardness multiplier" = 3.0
+	#Enables the recipe for the Lockpick.
+	"Enable lockpick" = true
+	#Disables right clicking keys together to become key rings and allows the menu to be used by shift right-clicking
+	"Use key ring menu" = false
+
