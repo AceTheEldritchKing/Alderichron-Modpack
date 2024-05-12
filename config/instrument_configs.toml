@@ -33,4 +33,6 @@ midi_channel = 0
 #Defines the MIDI split behaviour of the Arataki's Great and Glorious Drum
 #Allowed Values: DON, KA, BOTH
 dominant_drum_type = "BOTH"
+#Range: 0.0 ~ 1.0
+midi_in_sensitivity = 0.5
 
