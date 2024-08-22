@@ -1,16 +1,21 @@
-[12:33:03] [INIT] KubeJS 1902.6.2-build.69; MC 1902 forge
-[12:33:03] [INIT] Loaded plugins:
-[12:33:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[12:33:03] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[12:33:03] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[12:33:03] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[12:33:03] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[12:33:03] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
-[12:33:03] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
-[12:33:04] [INFO] example.js#5: Hello, World! (Loaded server scripts)
-[12:33:04] [INFO] Loaded script server_scripts:example.js in 0.0 s
-[12:33:04] [ERROR] ! recipes.js#16: Error loading KubeJS script: server_scripts:recipes.js': missing : after property id
-[12:33:04] [INFO] Loaded 1/2 KubeJS server scripts in 0.008 s
-[12:33:04] [INFO] Scripts loaded
-[12:33:04] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
-[12:33:04] [WARN] You can still see the full log (including past reloads) in your latest.log file.
+[19:25:11] [INIT] KubeJS 1902.6.2-build.73; MC 1902 forge
+[19:25:11] [INIT] Loaded plugins:
+[19:25:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:25:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:25:11] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[19:25:11] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[19:25:11] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[19:25:11] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[19:25:11] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[19:25:11] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:25:11] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:25:11] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
+[19:25:11] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[19:25:12] [INFO] Loaded script server_scripts:entities.js in 0.001 s
+[19:25:12] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[19:25:12] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[19:25:12] [ERROR] ! recipes.js#16: Error loading KubeJS script: server_scripts:recipes.js': missing : after property id
+[19:25:12] [INFO] Loaded 2/3 KubeJS server scripts in 0.015 s
+[19:25:12] [INFO] Scripts loaded
+[19:25:12] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[19:25:12] [WARN] You can still see the full log (including past reloads) in your latest.log file.

@@ -1,24 +1,16 @@
-[20:21:30.017][INFO]: Successfully injected RecipeFS file system
-[20:21:30.182][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[20:21:30.189][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[20:21:30.197][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[20:21:33.168][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[20:21:33.184][INFO]: - 'cagedmobs' at version '1.19.2-2.0.5'
-[20:21:33.185][INFO]: - 'crafttweaker' at version '10.1.55'
-[20:21:33.185][INFO]: - 'dimstages' at version '4.0.4'
-[20:21:33.185][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
-[20:21:33.186][INFO]: - 'gamestages' at version '11.1.4'
-[20:21:33.188][INFO]: - 'itemstages' at version '5.1.4'
-[20:21:33.188][INFO]: - 'mobgamestages' at version '1.19.2-V0.2'
-[20:21:47.959][INFO]: Started loading scripts for loader 'initialize'
-[20:21:48.682][INFO]: Compiling and executing scripts
-[20:21:48.758][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:21:48.899][INFO]: Execution for loader 'initialize' completed successfully
-[20:22:27.179][INFO]: Started loading scripts for loader 'tags'
-[20:22:27.200][INFO]: Compiling and executing scripts
-[20:22:27.215][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:22:27.223][INFO]: Execution for loader 'tags' completed successfully
-[20:22:29.974][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:22:29.995][INFO]: Compiling and executing scripts
-[20:22:30.378][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:22:30.387][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:53:38.730][INFO]: Successfully injected RecipeFS file system
+[19:53:39.210][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[19:53:39.224][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[19:53:39.233][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[19:53:42.809][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[19:53:42.815][INFO]: - 'cagedmobs' at version '1.19.2-2.0.5'
+[19:53:42.815][INFO]: - 'crafttweaker' at version '10.1.55'
+[19:53:42.815][INFO]: - 'dimstages' at version '4.0.4'
+[19:53:42.815][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
+[19:53:42.815][INFO]: - 'gamestages' at version '11.1.4'
+[19:53:42.815][INFO]: - 'itemstages' at version '5.1.4'
+[19:53:42.815][INFO]: - 'mobgamestages' at version '1.19.2-V0.2'
+[19:53:58.463][INFO]: Started loading scripts for loader 'initialize'
+[19:53:59.505][INFO]: Compiling and executing scripts
+[19:53:59.605][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:53:59.820][INFO]: Execution for loader 'initialize' completed successfully

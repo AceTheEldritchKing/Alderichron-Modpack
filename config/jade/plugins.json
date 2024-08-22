@@ -54,6 +54,9 @@
   "cagedmobs": {
     "cagedmobs_jade": true
   },
+  "autoleveling": {
+    "level": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
