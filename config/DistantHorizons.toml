@@ -267,7 +267,8 @@ _version = 2
 				#  does not have a ceiling.
 				enableCaveCulling = true
 				#
-				# At what Y value should cave culling start?
+				# At what Y value should cave culling start? 
+				# Lower this value if you get walls for areas with 0 light.
 				caveCullingHeight = 40
 				#
 				# This is the earth size ratio when applying the curvature shader effect. 
@@ -317,6 +318,18 @@ _version = 2
 				# FADE_TO_DIRT: sides fade from grass to dirt. 
 				# AS_DIRT: sides render entirely as dirt.
 				grassSideRendering = "FADE_TO_DIRT"
+
+			[client.advanced.graphics.genericRendering]
+				#
+				# If true non terrain objects will be rendered in DH's terrain. 
+				# This includes beacon beams and clouds.
+				enableRendering = true
+				#
+				# If true LOD beacon beams will be rendered.
+				enableBeaconRendering = true
+				#
+				# If true LOD clouds will be rendered.
+				enableCloudRendering = true
 
 		[client.advanced.worldGenerator]
 			#
@@ -439,6 +452,25 @@ _version = 2
 			# 
 			# 
 			showMigrationChatWarning = true
+			#
+			# If true LOD generation for pre-existing chunks will attempt to pull the lighting data 
+			# saved in Minecraft's Region files. 
+			# If false DH will pull in chunks without lighting and re-light them. 
+			#  
+			# Setting this to true will result in faster LOD generation 
+			# for already generated worlds, but is broken by most lighting mods. 
+			#  
+			# Set this to false if LODs are black.
+			pullLightingForPregeneratedChunks = false
+			#
+			# A comma separated list of block resource locations that won't be rendered by DH. 
+			# Note: air is always included in this list.
+			ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire"
+			#
+			# A comma separated list of block resource locations that shouldn't be rendered 
+			# if they are in a 0 sky light underground area. 
+			# Note: air is always included in this list.
+			ignoredRenderCaveBlockCsv = "minecraft:glow_lichen,minecraft:rail,minecraft:water,minecraft:lava,minecraft:bubble_column"
 
 		[client.advanced.multiThreading]
 			#
@@ -634,6 +666,14 @@ _version = 2
 			# If enabled, a chat message will be displayed if Java doesn't have enough 
 			# memory allocated to run DH well.
 			showLowMemoryWarningOnStartup = true
+			#
+			# If enabled, a chat message will be displayed when a replay is started 
+			# giving some basic information about how DH will function.
+			showReplayWarningOnStartup = true
+			#
+			# If enabled, a chat message will be displayed when a potentially problematic 
+			# mod is installed alongside DH.
+			showModCompatibilityWarningsOnStartup = true
 
 		[client.advanced.debugging]
 			#
@@ -673,6 +713,10 @@ _version = 2
 			# If true overlapping quads will be rendered as bright red for easy identification. 
 			# If false the quads will be rendered normally.
 			showOverlappingQuadErrors = false
+			#
+			# If true OpenGL Buffer garbage collection will be logged 
+			# this also includes the number of live buffers.
+			logBufferGarbageCollection = false
 
 			[client.advanced.debugging.debugWireframe]
 				#
