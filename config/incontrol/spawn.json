@@ -5,13 +5,153 @@
   "result": "deny"
   },
   {
-  "when": "onjoin",
-  "mod": "alexsmobs",
-  "mincount": {
-  "perplayer": true,
-  "amount": 50,
-  "mod": "alexsmobs"
+    "mob": "alexsmobs:hummingbird",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:gelada_monkey",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:roadrunner",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:gorilla",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:crimson_mosquito",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:cockroach",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:endergrade",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:shoebill",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:capuchin_monkey",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:mungus",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:centipede_head",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:centipede_body",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:centipede_tail",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:warped_toad",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:leafcutter_ant",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:mimicube",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:seagull",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:anteater",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:jerboa",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:cosmic_cod",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:bunfungus",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:cosmaw",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:elephant",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:gazelle",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 35,
+      "mod": "alexsmobs",
+      "perchunk": true
     },
-  "result": "deny"
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_nether",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 35,
+      "mod": "alexsmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:the_end",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 35,
+      "mod": "alexsmobs",
+      "perchunk": true
+    },
+    "result": "deny"
   }
 ]

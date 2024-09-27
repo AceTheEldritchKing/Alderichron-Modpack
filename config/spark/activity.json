@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "AceTheExaltdKing",
+      "uniqueId": "34e0c700-66dd-4932-8e0b-0083076609d5"
+    },
+    "time": 1727038439802,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eag8FQbkDU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "AceTheExaltdKing",
+      "uniqueId": "34e0c700-66dd-4932-8e0b-0083076609d5"
+    },
+    "time": 1727037947213,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2rpHNIUnNG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "AceTheExaltdKing",
+      "uniqueId": "34e0c700-66dd-4932-8e0b-0083076609d5"
+    },
+    "time": 1726976300127,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/oeUoLDomiz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "AceTheExaltdKing",
+      "uniqueId": "34e0c700-66dd-4932-8e0b-0083076609d5"
+    },
+    "time": 1726764991522,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FNmaHGZ74m"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "AceTheExaltdKing",
+      "uniqueId": "34e0c700-66dd-4932-8e0b-0083076609d5"
+    },
+    "time": 1726425006093,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pLPAsDyxQ0"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "AceTheExaltdKing",
+      "uniqueId": "34e0c700-66dd-4932-8e0b-0083076609d5"
+    },
+    "time": 1725855110351,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ujKXMAUc9e"
+    }
+  }
+]

@@ -318,6 +318,13 @@ _version = 2
 				# FADE_TO_DIRT: sides fade from grass to dirt. 
 				# AS_DIRT: sides render entirely as dirt.
 				grassSideRendering = "FADE_TO_DIRT"
+				#
+				# If true all beacons near the camera won't be drawn to prevent vanilla overdraw. 
+				# If false all beacons will be rendered. 
+				# 
+				# Generally this should be left as false. It's main purpose is for debugging
+				# beacon updating/rendering.
+				disableBeaconDistanceCulling = false
 
 			[client.advanced.graphics.genericRendering]
 				#
@@ -471,6 +478,14 @@ _version = 2
 			# if they are in a 0 sky light underground area. 
 			# Note: air is always included in this list.
 			ignoredRenderCaveBlockCsv = "minecraft:glow_lichen,minecraft:rail,minecraft:water,minecraft:lava,minecraft:bubble_column"
+			#
+			# Normally DH will attempt to skip creating LODs for chunks it's already seen
+			# and that haven't changed.
+			# 
+			# However sometimes that logic incorrecly prevents LODs from being updated.
+			# Disabling this check may fix issues where LODs aren't updated after
+			# blocks have been changed.
+			disableUnchangedChunkCheck = false
 
 		[client.advanced.multiThreading]
 			#

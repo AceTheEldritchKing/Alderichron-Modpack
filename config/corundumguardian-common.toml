@@ -28,6 +28,9 @@
 	#Default = 35
 	#Range: 0 ~ 1000
 	melee_attack_anim_speed = 35
+	#Corundum Guardian will attack only players if this is true
+	#Default = false
+	attack_player_only = false
 
 	["Basic Stats Settings\n"."Shockwave Stats Settings\n"]
 		#Lifetime of shockwave
