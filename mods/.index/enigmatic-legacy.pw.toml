@@ -1,0 +1,13 @@
+filename = 'EnigmaticLegacy-2.26.5.jar'
+name = 'Enigmatic Legacy'
+side = 'both'
+
+[download]
+hash = 'f1467614274adddc5487349991cf7f3383118539'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4392950
+project-id = 336184

@@ -1,0 +1,13 @@
+filename = 'summoningrituals-forge-1.19.2-2.0.7.jar'
+name = 'Summoning Rituals'
+side = 'both'
+
+[download]
+hash = '356adb0e12f22f52b0531bc3e08f021188591e51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4664059
+project-id = 671040

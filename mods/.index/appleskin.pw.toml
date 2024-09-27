@@ -1,0 +1,13 @@
+filename = 'appleskin-forge-mc1.19-2.4.2.jar'
+name = 'AppleSkin'
+side = 'both'
+
+[download]
+hash = '20f4e36e5c78bdef303683ccb96d77b2036da3ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3872808
+project-id = 248787

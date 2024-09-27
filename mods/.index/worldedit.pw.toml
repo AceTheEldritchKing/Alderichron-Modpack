@@ -1,0 +1,13 @@
+filename = 'worldedit-mod-7.2.12.jar'
+name = 'WorldEdit'
+side = 'both'
+
+[download]
+hash = '3583d0182a2a5c96d13434ed48ebb29742228174'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3922622
+project-id = 225608

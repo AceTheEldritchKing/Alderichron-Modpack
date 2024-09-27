@@ -1,0 +1,13 @@
+filename = 'hourglass-1.19.1-1.2.1.1.jar'
+name = 'Hourglass'
+side = 'both'
+
+[download]
+hash = 'bf90d7fbca006913d19fc53eaed8898b4e6191c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3935107
+project-id = 511172

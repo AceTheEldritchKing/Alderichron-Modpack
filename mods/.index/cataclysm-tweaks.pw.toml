@@ -1,0 +1,13 @@
+filename = 'Cataclysm Tweaks-1.0.1.jar'
+name = 'Cataclysm Tweaks'
+side = 'both'
+
+[download]
+hash = 'ace078e97cd95ccd3440a2354f9b38042ea72ebf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5378307
+project-id = 907553

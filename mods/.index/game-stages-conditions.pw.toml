@@ -1,0 +1,13 @@
+filename = 'gamestageconditions-1.19.2-3.0.jar'
+name = 'Game Stages Conditions'
+side = 'both'
+
+[download]
+hash = '61b6346001f7fbc429056a804a1862e424a5bbfe'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4804580
+project-id = 545344

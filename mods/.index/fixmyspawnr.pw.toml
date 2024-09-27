@@ -1,0 +1,13 @@
+filename = 'FixMySpawnR-forge-1.19.2-1.1.2.jar'
+name = 'FixMySpawnR'
+side = 'both'
+
+[download]
+hash = '474f900006da2647339a69a3c9a19ed1946010e9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4009540
+project-id = 626476

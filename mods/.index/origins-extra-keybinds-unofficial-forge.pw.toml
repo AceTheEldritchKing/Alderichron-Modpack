@@ -1,0 +1,13 @@
+filename = 'ExtraKeybinds-1.0-1.19.2.jar'
+name = 'Origins Extra Keybinds (Unofficial Forge)'
+side = 'both'
+
+[download]
+hash = '0fa5d92be134da9edeb83dfe523575c75bdb2b44'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4264415
+project-id = 758302

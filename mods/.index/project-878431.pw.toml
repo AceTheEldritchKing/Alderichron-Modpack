@@ -1,0 +1,13 @@
+filename = 'fromtheshadows-1.59.jar'
+name = 'project-878431'
+side = 'both'
+
+[download]
+hash = 'b400f7062f0ffe258b890fe9488f0b8f4661fc06'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4878314
+project-id = 878431

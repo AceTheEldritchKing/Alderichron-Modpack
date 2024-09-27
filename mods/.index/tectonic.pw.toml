@@ -1,0 +1,13 @@
+filename = 'tectonic-forge-1.19-2.3.5a.jar'
+name = 'Tectonic'
+side = 'both'
+
+[download]
+hash = 'e3f49e3f0f41f228605cd57d6be7029de59c7021'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5400769
+project-id = 686836

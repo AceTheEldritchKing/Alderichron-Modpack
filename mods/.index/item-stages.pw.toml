@@ -1,0 +1,13 @@
+filename = 'ItemStages-Forge-1.19.2-5.1.4.jar'
+name = 'Item Stages'
+side = 'both'
+
+[download]
+hash = '515584d8bfa2f1d85484660eae68a27e1a11e6a9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5171280
+project-id = 280316

@@ -1,0 +1,13 @@
+filename = 'irons_spells_js-1.19.2-3.0.0-release.jar'
+name = "KubeJS Iron's Spells"
+side = 'both'
+
+[download]
+hash = 'ce2a6540d6a30f2921a0d14f116884f89d9af741'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5578913
+project-id = 980834

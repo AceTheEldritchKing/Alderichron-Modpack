@@ -1,0 +1,13 @@
+filename = 'azurelib-forge-1.19.2-1.0.52.jar'
+name = 'AzureLib'
+side = 'both'
+
+[download]
+hash = 'cc574e77a4b10ce490dbcb5696d196466972ecca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5753115
+project-id = 817423

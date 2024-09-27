@@ -1,0 +1,13 @@
+filename = 'yawp-1.19.2-0.0.2.9-beta3-forge.jar'
+name = 'Yet Another World Protector'
+side = 'both'
+
+[download]
+hash = '69221cecdbffc9585fbd4dfc73fe80565fa40ca7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4702335
+project-id = 663276

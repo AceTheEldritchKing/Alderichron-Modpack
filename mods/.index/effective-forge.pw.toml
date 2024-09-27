@@ -1,0 +1,13 @@
+filename = 'effective_fg-1.3.4.jar'
+name = 'Effective (Forge)'
+side = 'both'
+
+[download]
+hash = 'a4b018774be89f5ff229930ab32d5850a28e1fa3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4017700
+project-id = 557796

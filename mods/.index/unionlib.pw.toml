@@ -1,0 +1,13 @@
+filename = 'UnionLib-1.19.2-10.2.5-Forge.jar'
+name = 'UnionLib'
+side = 'both'
+
+[download]
+hash = '55992fbc31df552f59befaac93ec32f4653aeb25'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5176208
+project-id = 367806

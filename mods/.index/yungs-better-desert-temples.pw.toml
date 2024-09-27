@@ -1,0 +1,13 @@
+filename = 'YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar'
+name = "YUNG's Better Desert Temples (Forge)"
+side = 'both'
+
+[download]
+hash = '3d36e940fa14e45dd1e722311ca6f40a75edef78'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4419320
+project-id = 631016

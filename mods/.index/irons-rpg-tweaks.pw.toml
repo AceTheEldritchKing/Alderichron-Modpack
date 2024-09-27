@@ -1,0 +1,13 @@
+filename = 'irons_rpg_tweaks-1.19.2-1.2.1.jar'
+name = "Iron's Rpg Tweaks"
+side = 'both'
+
+[download]
+hash = '241bde1c765f78c80122151044e13cf3edd83f7f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4918024
+project-id = 871799

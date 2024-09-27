@@ -1,0 +1,13 @@
+filename = 'Nullscape_1.19.3_v1.2.2.jar'
+name = 'Nullscape'
+side = 'both'
+
+[download]
+hash = '3345455bb2135ad56e16c0cda12c828f598e5306'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4677633
+project-id = 570354

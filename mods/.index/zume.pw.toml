@@ -1,0 +1,13 @@
+filename = 'zume-1.1.2.jar'
+name = 'Zume'
+side = 'both'
+
+[download]
+hash = '9e2cb5e9212c3e444585e874f496fa3bd944f9bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5654402
+project-id = 927564

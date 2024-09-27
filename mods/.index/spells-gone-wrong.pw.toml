@@ -1,0 +1,13 @@
+filename = 'spells-gone-wrong-1.19.2-V1.0.0.jar'
+name = "Spells Gone Wrong (Iron's Spells N Spellbooks)"
+side = 'both'
+
+[download]
+hash = 'ec4668f9d2a571a20ced908c545c13ec52c3d257'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5291814
+project-id = 1009162

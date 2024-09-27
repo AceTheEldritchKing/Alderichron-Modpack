@@ -1,0 +1,13 @@
+filename = 'Prism-1.19.1-1.0.2.jar'
+name = 'Prism [Neo/Forge]'
+side = 'both'
+
+[download]
+hash = '082c48f00604c2d3c282fd69fbdae5cf594878d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3993293
+project-id = 638111

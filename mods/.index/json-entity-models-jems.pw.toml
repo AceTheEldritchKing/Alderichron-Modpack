@@ -1,0 +1,13 @@
+filename = 'json-entity-models-1.19.2-0.2.2.jar'
+name = 'JSON Entity Models (JEMs)'
+side = 'both'
+
+[download]
+hash = 'dca33fc91e5b0a312fe6938c894fb520b937dbf1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4567971
+project-id = 815386

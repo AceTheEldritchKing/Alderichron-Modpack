@@ -1,0 +1,13 @@
+filename = 'lazydfu-1.19-1.0.2.jar'
+name = 'Lazy DataFixerUpper(LazyDFU) [FORGE]'
+side = 'both'
+
+[download]
+hash = 'e120fbcc1704fcf0e661494771ba50ffe5a43b40'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4327266
+project-id = 460819

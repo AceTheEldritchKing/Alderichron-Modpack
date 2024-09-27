@@ -1,0 +1,13 @@
+filename = 'cagedmobs-1.19.2-forge-2.0.5.jar'
+name = 'Caged Mobs'
+side = 'both'
+
+[download]
+hash = 'bb2de066136fb6816618b815320cee7595f3da65'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4949375
+project-id = 417179

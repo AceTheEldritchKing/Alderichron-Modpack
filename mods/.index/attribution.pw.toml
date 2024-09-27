@@ -1,0 +1,13 @@
+filename = 'attribution-1.0.0.jar'
+name = 'Attribution'
+side = 'both'
+
+[download]
+hash = 'c4b9200f14c8f0350a279195e9a126532c3479a2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4089670
+project-id = 703993

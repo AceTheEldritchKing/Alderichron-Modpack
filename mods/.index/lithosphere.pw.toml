@@ -1,0 +1,13 @@
+filename = 'lithosphere 1.2 25.06.2024.jar'
+name = 'Lithosphere'
+side = 'both'
+
+[download]
+hash = '41f918a6ca007d3b159de75fc0cc2b7172f3c8b3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5472833
+project-id = 995122

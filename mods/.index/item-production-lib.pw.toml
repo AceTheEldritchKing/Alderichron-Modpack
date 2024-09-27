@@ -1,0 +1,13 @@
+filename = 'ItemProductionLib-1.19.2-1.0.2a-all.jar'
+name = 'Item Production Lib'
+side = 'both'
+
+[download]
+hash = 'fc19bfb251ad213b544417a890c62f9d597a5c05'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5114035
+project-id = 950401

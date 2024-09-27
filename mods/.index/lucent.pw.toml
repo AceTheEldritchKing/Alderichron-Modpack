@@ -1,0 +1,13 @@
+filename = 'lucent-1.19.2-1.4.1.jar'
+name = 'Lucent'
+side = 'both'
+
+[download]
+hash = '0a95dc6fed754046300bf9b0eb9b73d73042cc4e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4085139
+project-id = 493280

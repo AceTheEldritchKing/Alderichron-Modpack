@@ -1,0 +1,13 @@
+filename = 'letmedespawn-forge-1.3.2b.jar'
+name = 'Let Me Despawn'
+side = 'both'
+
+[download]
+hash = 'd33abafced73e884f8e06d87a91d20a29f0b9ed3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5746850
+project-id = 663477

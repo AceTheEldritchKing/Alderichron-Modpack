@@ -1,0 +1,13 @@
+filename = 'locksmith-forge-1.1.1.jar'
+name = 'Locksmith'
+side = 'both'
+
+[download]
+hash = '38cdc3ac9402d78bf9b14b4da1ef636068ebb4ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4650915
+project-id = 544352

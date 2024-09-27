@@ -1,0 +1,13 @@
+filename = 'cataclysm_spellbooks-1.0.4-1.19.2-all.jar'
+name = 'Cataclysm: Spellbooks'
+side = 'both'
+
+[download]
+hash = '6ae0b12619b02a35fb3b583ab13165d016809ae9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5760640
+project-id = 1099461

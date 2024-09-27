@@ -1,0 +1,13 @@
+filename = 'genshinstrument-1.19.2-4.0.2.jar'
+name = 'Genshin Instruments'
+side = 'both'
+
+[download]
+hash = '89b7e58ef94bdc5e87de50610675958457b5d0aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5742160
+project-id = 848761

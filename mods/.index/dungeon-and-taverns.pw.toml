@@ -1,0 +1,13 @@
+filename = 'dungeons-and-taverns-2.0.2 forge.jar'
+name = 'Dungeons and Taverns'
+side = 'both'
+
+[download]
+hash = 'f925ac6efcee9a8896c52bca4fdeaa25df9a7c41'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4506854
+project-id = 853794

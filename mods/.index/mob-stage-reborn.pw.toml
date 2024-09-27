@@ -1,0 +1,13 @@
+filename = 'mobgamestages-1.19.2-V0.2.jar'
+name = 'Mob Stage Reborn'
+side = 'both'
+
+[download]
+hash = '062c9ff84da76bbfc3623a8dfec1b8ddad336334'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4596390
+project-id = 873965

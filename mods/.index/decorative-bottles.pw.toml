@@ -1,0 +1,13 @@
+filename = 'decorative_bottles-0.1.2.jar'
+name = 'Decorative Bottles'
+side = 'both'
+
+[download]
+hash = '29e07c00526b9be6c1e988972381043684e87473'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4865556
+project-id = 922522

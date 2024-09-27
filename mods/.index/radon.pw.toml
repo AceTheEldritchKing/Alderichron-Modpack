@@ -1,0 +1,13 @@
+filename = 'radon-0.8.2.jar'
+name = 'Radon'
+side = 'both'
+
+[download]
+hash = 'f971a5b3da7a1aaa43da063839d6da9646482874'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3822783
+project-id = 596879

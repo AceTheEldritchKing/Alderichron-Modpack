@@ -1,0 +1,13 @@
+filename = 'fearmenot-2.1.2.jar'
+name = "Fear me! (not) (TigerKus' rewrite)"
+side = 'both'
+
+[download]
+hash = 'c6ed11628bbb7c8147553c417081eaf4e8ac37dc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4778956
+project-id = 396106

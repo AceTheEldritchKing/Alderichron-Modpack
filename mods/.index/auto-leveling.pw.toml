@@ -1,0 +1,13 @@
+filename = 'AutoLeveling-1.19.2-1.19b.jar'
+name = 'Auto Leveling'
+side = 'both'
+
+[download]
+hash = '8e1e6511ae1580aa1b1bcf4387cda538070adc7f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4899525
+project-id = 616126

@@ -1,0 +1,13 @@
+filename = 'tetrasdelight-1.19.2-2.jar'
+name = "Tetra's Delight"
+side = 'both'
+
+[download]
+hash = 'fd80116de5d37d098f6cef3d6346c7ccc6554caf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4851492
+project-id = 845576

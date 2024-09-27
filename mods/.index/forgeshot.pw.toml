@@ -1,0 +1,13 @@
+filename = 'forgeshot-1.0.jar'
+name = 'Forgeshot'
+side = 'both'
+
+[download]
+hash = 'd7989dce08ee7084b21ae8736e2d4513e918514d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4746004
+project-id = 911710

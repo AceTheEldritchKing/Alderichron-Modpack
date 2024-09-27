@@ -1,0 +1,13 @@
+filename = 'hammerthatrock-1.1.jar'
+name = 'Hammer That Rock!'
+side = 'both'
+
+[download]
+hash = '0c2a6c9a5ab6418bea984d39fda63218c1313a53'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4634756
+project-id = 885525

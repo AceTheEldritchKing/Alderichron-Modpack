@@ -1,0 +1,13 @@
+filename = 'NaNny-1.0.1.jar'
+name = 'NaNny (Fix NaN Health / Absorption)'
+side = 'both'
+
+[download]
+hash = '6787680e2090c3a789802e9521f79580d3ff08f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4458732
+project-id = 634392

@@ -1,0 +1,13 @@
+filename = 'additional_attributes-1.19.2-1.0.3-all.jar'
+name = 'Additional Attributes'
+side = 'both'
+
+[download]
+hash = '6917b4afdfb38059c63e9457d4c1f1f621675434'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5399996
+project-id = 986624

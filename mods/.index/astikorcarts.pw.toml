@@ -1,0 +1,13 @@
+filename = 'astikorcarts-1.19.2-1.1.2.jar'
+name = 'AstikorCarts [Horse Carts]'
+side = 'both'
+
+[download]
+hash = '1eb1f126bc0515f1fe96a1671045b05e73c11010'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4367405
+project-id = 273771

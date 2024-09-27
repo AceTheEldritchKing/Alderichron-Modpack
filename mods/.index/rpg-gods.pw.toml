@@ -1,0 +1,13 @@
+filename = 'rpggods-19.2.2.jar'
+name = 'RPG Gods'
+side = 'both'
+
+[download]
+hash = 'b266619d41cbba91b5908ca4e8682d31b5556fb4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4018407
+project-id = 601680
