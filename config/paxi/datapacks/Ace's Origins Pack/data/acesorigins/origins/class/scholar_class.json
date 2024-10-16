@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "acesorigins:scholar/extra_exp",
+    "origins-classes:better_enchanting"
+  ],
+  "icon": "minecraft:writable_book",
+  "order": 8,
+  "impact": 0,
+  "name": "Scholar",
+  "description": "Archivists and academics, these individuals have an aptitude for knowledge and have a greater understanding of the world around them."
+}

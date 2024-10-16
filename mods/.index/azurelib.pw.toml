@@ -1,13 +1,13 @@
-filename = 'azurelib-forge-1.19.2-1.0.52.jar'
+filename = 'azurelib-forge-1.19.2-1.0.54.jar'
 name = 'AzureLib'
 side = 'both'
 
 [download]
-hash = 'cc574e77a4b10ce490dbcb5696d196466972ecca'
+hash = '98210d687de54bf12827011e9e244f1ef739ed86'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5753115
+file-id = 5782747
 project-id = 817423

@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "acesorigins:meifwa/claws",
+        "acesorigins:meifwa/agility",
+        "acesorigins:meifwa/balance",
+        "acesorigins:meifwa/lower_health",
+        "acesorigins:shared/test_ray"
+    ],
+    "icon": "minecraft:string",
+    "order": 3,
+    "impact": 1,
+    "name": "Felis",
+    "description": "A cat-like human from a far away kingdom."
+}

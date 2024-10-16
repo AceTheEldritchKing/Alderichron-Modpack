@@ -10,6 +10,10 @@
         {
             "required": false,
             "id": "tetra:modular_sword"
+        },
+        {
+            "required": false,
+            "id": "tetra:modular_greatsword"
         }
     ]
 }

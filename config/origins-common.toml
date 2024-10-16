@@ -290,3 +290,266 @@
 		"origins-classes:stealth" = true
 		"origins-classes:stealth_core" = true
 
+	[origins."acesorigins:ao/tank_class"]
+		enabled = true
+		"acesorigins:tank/increased_health" = true
+		"acesorigins:tank/more_armor" = true
+
+	[origins."acesorigins:ao/wizard_class"]
+		enabled = true
+		"acesorigins:wizard/magic_missile" = true
+		"acesorigins:wizard/fireball" = true
+
+	[origins."acesorigins:ao/shadowborne"]
+		enabled = true
+		"acesorigins:shadowborne/darkness_strength" = true
+		"acesorigins:shadowborne/sword_proficiency" = true
+		"acesorigins:shadowborne/shadow_particles" = true
+		"acesorigins:shadowborne/light_weakness" = true
+		"acesorigins:shadowborne/blunt_ineptitude" = true
+
+	[origins."acesorigins:ao/ultima"]
+		enabled = true
+		"acesorigins:ultima/ultima_eyes" = true
+		"acesorigins:ultima/villagers_fear" = true
+		"acesorigins:werewolf/wolf_friend" = true
+		"acesorigins:werewolf/wolf_team" = true
+		"acesorigins:ultima/ultima_strength" = true
+		"acesorigins:ultima/ultima_endurance" = true
+		"acesorigins:ultima/beast_within" = true
+		"acesorigins:ultima/beast_within/bw_resource" = true
+		"acesorigins:ultima/beast_within/change_resource" = true
+		"acesorigins:werewolf/chocolate_allergy" = true
+		"acesorigins:ultima/grand_hunger" = true
+		"acesorigins:ultima/silver_aversion" = true
+
+	[origins."acesorigins:shulk"]
+		enabled = true
+
+	[origins."acesorigins:phantom"]
+		enabled = true
+
+	[origins."acesorigins:ao/demon"]
+		enabled = true
+		"acesorigins:demon/demon_strength" = true
+		"acesorigins:demon/hell_strength" = true
+		"acesorigins:demon/fire_immunity" = true
+		"acesorigins:demon/hell_friend" = true
+		"acesorigins:demon/hell_team" = true
+		"origins:carnivore" = true
+		"acesorigins:demon/hydrophobia" = true
+		"acesorigins:demon/no_regen" = true
+		"acesorigins:demon/nether_fort_spawn" = true
+
+	[origins."acesorigins:enderian"]
+		enabled = true
+
+	[origins."acesorigins:ao/scholar_class"]
+		enabled = true
+		"acesorigins:scholar/extra_exp" = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."acesorigins:merling"]
+		enabled = true
+
+	[origins."acesorigins:arachnid"]
+		enabled = true
+
+	[origins."acesorigins:elytrian"]
+		enabled = true
+
+	[origins."acesorigins:ao/elf"]
+		enabled = true
+		"acesorigins:elf/natural_archer" = true
+		"acesorigins:elf/intelligence" = true
+		"acesorigins:elf/frail" = true
+		"acesorigins:elf/weaker_melee" = true
+
+	[origins."acesorigins:ao/paladin"]
+		enabled = true
+		"acesorigins:paladin/holy_smite" = true
+		"acesorigins:paladin/undead_dmg_reduction" = true
+
+	[origins."acesorigins:ao/lightborne"]
+		enabled = true
+		"acesorigins:lightborne/blunt_proficiency" = true
+		"acesorigins:lightborne/light_strength" = true
+		"acesorigins:lightborne/sword_ineptitude" = true
+		"acesorigins:lightborne/shadow_weakness" = true
+		"acesorigins:lightborne/light_particles" = true
+
+	[origins."acesorigins:ao/angel"]
+		enabled = true
+		"acesorigins:angel/flight" = true
+		"acesorigins:angel/angelic_strength" = true
+		"acesorigins:angel/fall_dmg_immunity" = true
+		"acesorigins:angel/heavenly_powers" = true
+		"origins:vegetarian" = true
+		"acesorigins:angel/pyrophobia" = true
+		"acesorigins:angel/hell_weakness" = true
+
+	[origins."acesorigins:ao/revamp_cleric"]
+		enabled = true
+		"acesorigins:cleric/healing" = true
+		"acesorigins:cleric/smiting_ray" = true
+
+	[origins."acesorigins:avian"]
+		enabled = true
+
+	[origins."acesorigins:ao/meifwa"]
+		enabled = true
+		"acesorigins:meifwa/claws" = true
+		"acesorigins:meifwa/agility" = true
+		"acesorigins:meifwa/balance" = true
+		"acesorigins:meifwa/lower_health" = true
+
+	[origins."acesorigins:ao/dragon_linked"]
+		enabled = true
+		"acesorigins:dragon_linked/enhanced_strength" = true
+		"acesorigins:dragon_linked/spear_proficiency" = true
+		"acesorigins:dragon_linked/valor" = true
+		"acesorigins:dragon_linked/dragonbane" = true
+		"acesorigins:dragon_linked/arrow_weakness" = true
+		"acesorigins:dragon_linked/exhaust" = true
+		"acesorigins:dragon_linked/burdened_alt" = true
+		"acesorigins:shared/dash_attack" = true
+
+	[origins."acesorigins:blazeborn"]
+		enabled = true
+
+	[origins."acesorigins:feline"]
+		enabled = true
+
+	[origins."acesorigins:ao/witch_class"]
+		enabled = true
+		"origins-classes:potion_bonus" = true
+		"acesorigins:witch/poison_immunity" = true
+
+	[origins."acesorigins:ao/werewolf"]
+		enabled = true
+		"acesorigins:werewolf/wolf_friend" = true
+		"acesorigins:werewolf/wolf_team" = true
+		"acesorigins:werewolf/werewolf_strength" = true
+		"acesorigins:werewolf/werewolf_endurance" = true
+		"acesorigins:werewolf/chocolate_allergy" = true
+		"acesorigins:werewolf/great_hunger" = true
+		"acesorigins:werewolf/silver_weakness" = true
+
+	[origins."acesorigins:origin/angel"]
+		enabled = true
+		"acesorigins:angel/flight" = true
+		"acesorigins:angel/angelic_strength" = true
+		"acesorigins:angel/fall_dmg_immunity" = true
+		"acesorigins:angel/heavenly_powers" = true
+		"origins:vegetarian" = true
+		"acesorigins:angel/pyrophobia" = true
+		"acesorigins:angel/hell_weakness" = true
+
+	[origins."acesorigins:origin/elf"]
+		enabled = true
+		"acesorigins:elf/natural_archer" = true
+		"acesorigins:elf/intelligence" = true
+		"acesorigins:elf/frail" = true
+		"acesorigins:elf/weaker_melee" = true
+
+	[origins."acesorigins:class/paladin_class"]
+		enabled = true
+		"acesorigins:paladin/holy_smite" = true
+		"acesorigins:paladin/undead_dmg_reduction" = true
+
+	[origins."acesorigins:origin/shadowborne"]
+		enabled = true
+		"acesorigins:shadowborne/darkness_strength" = true
+		"acesorigins:shadowborne/sword_proficiency" = true
+		"acesorigins:shadowborne/shadow_particles" = true
+		"acesorigins:shadowborne/light_weakness" = true
+		"acesorigins:shadowborne/blunt_ineptitude" = true
+
+	[origins."acesorigins:origin/lightborne"]
+		enabled = true
+		"acesorigins:lightborne/blunt_proficiency" = true
+		"acesorigins:lightborne/light_strength" = true
+		"acesorigins:lightborne/sword_ineptitude" = true
+		"acesorigins:lightborne/shadow_weakness" = true
+		"acesorigins:lightborne/light_particles" = true
+
+	[origins."acesorigins:origin/ultima"]
+		enabled = true
+		"acesorigins:ultima/ultima_eyes" = true
+		"acesorigins:ultima/villagers_fear" = true
+		"acesorigins:werewolf/wolf_friend" = true
+		"acesorigins:werewolf/wolf_team" = true
+		"acesorigins:ultima/ultima_strength" = true
+		"acesorigins:ultima/ultima_endurance" = true
+		"acesorigins:ultima/beast_within" = true
+		"acesorigins:ultima/beast_within/bw_resource" = true
+		"acesorigins:ultima/beast_within/change_resource" = true
+		"acesorigins:werewolf/chocolate_allergy" = true
+		"acesorigins:ultima/grand_hunger" = true
+		"acesorigins:ultima/silver_aversion" = true
+
+	[origins."acesorigins:origin/meifwa"]
+		enabled = true
+		"acesorigins:meifwa/claws" = true
+		"acesorigins:meifwa/agility" = true
+		"acesorigins:meifwa/balance" = true
+		"acesorigins:meifwa/lower_health" = true
+
+	[origins."acesorigins:class/scholar_class"]
+		enabled = true
+		"acesorigins:scholar/extra_exp" = true
+		"origins-classes:better_enchanting" = true
+
+	[origins."acesorigins:origin/dragon_linked"]
+		enabled = true
+		"acesorigins:dragon_linked/enhanced_strength" = true
+		"acesorigins:dragon_linked/spear_proficiency" = true
+		"acesorigins:dragon_linked/valor" = true
+		"acesorigins:dragon_linked/dragonbane" = true
+		"acesorigins:dragon_linked/arrow_weakness" = true
+		"acesorigins:dragon_linked/exhaust" = true
+		"acesorigins:dragon_linked/burdened_alt" = true
+		"acesorigins:shared/dash_attack" = true
+
+	[origins."acesorigins:class/revamp_cleric"]
+		enabled = true
+		"acesorigins:cleric/healing" = true
+		"acesorigins:cleric/smiting_ray" = true
+
+	[origins."acesorigins:class/wizard_class"]
+		enabled = true
+		"acesorigins:wizard/magic_missile" = true
+		"acesorigins:wizard/fireball" = true
+
+	[origins."acesorigins:class/tank_class"]
+		enabled = true
+		"acesorigins:tank/increased_health" = true
+		"acesorigins:tank/more_armor" = true
+
+	[origins."acesorigins:origin/werewolf"]
+		enabled = true
+		"acesorigins:werewolf/wolf_friend" = true
+		"acesorigins:werewolf/wolf_team" = true
+		"acesorigins:werewolf/werewolf_strength" = true
+		"acesorigins:werewolf/werewolf_endurance" = true
+		"acesorigins:werewolf/chocolate_allergy" = true
+		"acesorigins:werewolf/great_hunger" = true
+		"acesorigins:werewolf/silver_weakness" = true
+
+	[origins."acesorigins:origin/demon"]
+		enabled = true
+		"acesorigins:demon/demon_strength" = true
+		"acesorigins:demon/hell_strength" = true
+		"acesorigins:demon/fire_immunity" = true
+		"acesorigins:demon/hell_friend" = true
+		"acesorigins:demon/hell_team" = true
+		"origins:carnivore" = true
+		"acesorigins:demon/hydrophobia" = true
+		"acesorigins:demon/no_regen" = true
+		"acesorigins:demon/nether_fort_spawn" = true
+
+	[origins."acesorigins:class/witch_class"]
+		enabled = true
+		"origins-classes:potion_bonus" = true
+		"acesorigins:witch/poison_immunity" = true
+

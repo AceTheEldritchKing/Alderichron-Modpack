@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Immersive Weathering Generated Pack","Supplementaries Generated Pack","file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/Obscuria\u0027s-Brewing-1.19.zip","file/Blockier Goat Horn v1.1 f9-34.zip","file/xali\u0027s Potions v1.0.zip","4_BIC_Compat_Texture_Pack.zip","Aces Origins Bar","quark:emote_resources","file/FrostbiteBrimstone.zip","file/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.19.X].zip","file/Ice\u0026Fire-ColdInferno","file/Ice\u0026Fire-ColdInferno-Dreadsteel","file/PugsTetra.zip","file/Excalibur_X_Tetra.zip","file/Medieval_Style_Lootr.zip","file/Pinnacle 2.8.0.zip","file/ISNS.zip","file/RenovatedTextures_Irons\u0027s Spells and Spellbooks_(v1.2.0).zip","file/bettermanabar.zip","file/MedievalMusic2.zip","black_icons","file/Better_glint_v1.2.zip","file/better_glint_Quark_Compat.zip","file/boss-refreshed-v1.4.zip","file/Tender Dragon v1.1.zip","file/Better Goat Horns.zip","Ace\u0027s Tweaks 4.zip","file/waystones.zip","file/[1.4.1] Enhanced Boss Bars.zip"]
-incompatibleResourcePacks:["file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/Blockier Goat Horn v1.1 f9-34.zip","file/xali\u0027s Potions v1.0.zip","4_BIC_Compat_Texture_Pack.zip","Aces Origins Bar","quark:emote_resources","file/FrostbiteBrimstone.zip","file/Ice\u0026Fire-ColdInferno","file/Ice\u0026Fire-ColdInferno-Dreadsteel","file/Excalibur_X_Tetra.zip","file/Medieval_Style_Lootr.zip","file/Pinnacle 2.8.0.zip","file/ISNS.zip","file/RenovatedTextures_Irons\u0027s Spells and Spellbooks_(v1.2.0).zip","file/bettermanabar.zip","file/boss-refreshed-v1.4.zip","file/Tender Dragon v1.1.zip","file/Better Goat Horns.zip","Ace\u0027s Tweaks 4.zip"]
+resourcePacks:["vanilla","mod_resources","Immersive Weathering Generated Pack","Supplementaries Generated Pack","file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/Obscuria\u0027s-Brewing-1.19.zip","file/Blockier Goat Horn v1.1 f9-34.zip","file/xali\u0027s Potions v1.0.zip","4_BIC_Compat_Texture_Pack.zip","Aces Origins Bar","quark:emote_resources","file/FrostbiteBrimstone.zip","file/IAF-DE4THR4SH-Dragonsteel-Weaponry-V-3.5-[1.19.X].zip","file/Ice\u0026Fire-ColdInferno","file/Ice\u0026Fire-ColdInferno-Dreadsteel","file/PugsTetra.zip","file/Excalibur_X_Tetra.zip","file/Medieval_Style_Lootr.zip","file/Pinnacle 2.8.0.zip","file/ISNS.zip","file/RenovatedTextures_Irons\u0027s Spells and Spellbooks_(v1.2.0).zip","file/bettermanabar.zip","file/MedievalMusic2.zip","file/Realistic Combat Soundpack 2.0.zip","file/MC_Dungeons_Crit [1.20.3-1.20.4].zip","black_icons","file/Better_glint_v1.2.zip","file/better_glint_Quark_Compat.zip","file/boss-refreshed-v1.4.zip","file/Tender Dragon v1.1.zip","file/Better Goat Horns.zip","Ace\u0027s Tweaks 4.zip","file/waystones.zip","file/[1.4.1] Enhanced Boss Bars.zip"]
+incompatibleResourcePacks:["file/Excalibur_V1.19.4.zip","file/Excalibur_V1.19_Mod_Support_GPJ_Build_3.zip","file/Blockier Goat Horn v1.1 f9-34.zip","file/xali\u0027s Potions v1.0.zip","4_BIC_Compat_Texture_Pack.zip","Aces Origins Bar","quark:emote_resources","file/FrostbiteBrimstone.zip","file/Ice\u0026Fire-ColdInferno","file/Ice\u0026Fire-ColdInferno-Dreadsteel","file/Excalibur_X_Tetra.zip","file/Medieval_Style_Lootr.zip","file/Pinnacle 2.8.0.zip","file/ISNS.zip","file/RenovatedTextures_Irons\u0027s Spells and Spellbooks_(v1.2.0).zip","file/bettermanabar.zip","file/MC_Dungeons_Crit [1.20.3-1.20.4].zip","file/boss-refreshed-v1.4.zip","file/Tender Dragon v1.1.zip","file/Better Goat Horns.zip","Ace\u0027s Tweaks 4.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -134,35 +134,35 @@ key_key.origins.view_origin:key.keyboard.4
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
-key_key.jei.bookmark:key.keyboard.a
-key_key.jei.cheatOneItem:key.mouse.left
-key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
-key_key.jei.copy.recipe.id:key.keyboard.unknown
-key_key.jei.nextPage:key.keyboard.unknown
-key_key.jei.showRecipe2:key.mouse.left
-key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
-key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
-key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.recipeBack:key.keyboard.backspace
 key_key.jei.showUses2:key.mouse.right
 key_key.jei.nextRecipePage:key.keyboard.page.down
-key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
-key_key.jei.cheatItemStack:key.mouse.left:SHIFT
-key_key.jei.closeRecipeGui:key.keyboard.escape
-key_key.jei.cheatOneItem2:key.mouse.right
-key_key.jei.recipeBack:key.keyboard.backspace
-key_key.jei.previousSearch:key.keyboard.up
-key_key.jei.nextSearch:key.keyboard.down
-key_key.jei.showRecipe:key.keyboard.r
-key_key.jei.clearSearchBar:key.mouse.right
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
 key_key.jei.showUses:key.keyboard.u
-key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.previousPage:key.keyboard.unknown
-key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.previousRecipePage:key.keyboard.page.up
 key_key.jei.toggleCheatMode:key.keyboard.backslash
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
 key_key.jei.cheatItemStack2:key.mouse.middle
-key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.showRecipe2:key.mouse.left
 key_key.travelersbackpack.inventory:key.keyboard.b
 key_key.travelersbackpack.sort:key.keyboard.unknown
 key_key.travelersbackpack.ability:key.keyboard.unknown
@@ -182,7 +182,7 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_keybinds.bettercombat.feint:key.keyboard.unknown
+key_keybinds.bettercombat.feint:key.keyboard.keypad.1
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_keybinds.combatroll.roll:key.keyboard.r
 key_key.wildfire_gender.gender_menu:key.keyboard.5
